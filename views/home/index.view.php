@@ -17,6 +17,7 @@ if (!isset($_SESSION['user_id'])) {
     <div class="p-3">
       <!-- Replace with your content -->
      <p>Hello Home</p>
+     <p>Hello would</p>
       <!-- /End replace -->
     </div>
   </main>
