@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 $routes = [
@@ -14,5 +14,18 @@ if (array_key_exists($uri, $routes)) {
    http_response_code(404);
    require 'views/errors/404.php';
    die();
-}
+} -->
+
+
+
+
+// _________________________________________
+
+<?php
+// Define a variable
+$message = "Hello, World!";
+
+// Output the variable value
+echo $message;
+?>
 
